@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <table>
+            <tr>
+                <input type="text" id="box">
+            </tr>
+            <tr>
+                <input type="button" value="Ac" onclick="clr()" id="btm">
+                <input type="button" value="%" onclick="pick('%')" id="btm">
+                <input type="button" value="/" onclick="pick('/')" id="btm">
+                <input type="button" value="+" onclick="pick('+')" id="btm">
+            </tr>
+            <tr>
+                <input type="button" value="1" onclick="pick(1)">
+                <input type="button" value="2" onclick="pick(2)">
+                <input type="button" value="3" onclick="pick(3)">
+                <input type="button" value="-" onclick="pick('-')" id="btm">
+            </tr>
+            <tr>
+                <input type="button" value="4" onclick="pick(4)">
+                <input type="button" value="5" onclick="pick(5)">
+                <input type="button" value="6" onclick="pick(6)">
+                <input type="button" value="*" onclick="pick('*')" id="btm">
+            </tr>
+            <tr>
+                <input type="button" value="7" onclick="pick(7)">
+                <input type="button" value="8" onclick="pick(8)">
+                <input type="button" value="9" onclick="pick(9)">
+                <input type="button" value="/"onclick="pick('/')" id="btm">
+            </tr>
+            <tr>
+                <input type="button" value="00" onclick="pick(0)">
+                <input type="button" value="0" onclick="pick('0')">
+            </tr>
+                <input id="btn" type="button" value="=" onclick="solv()">
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
